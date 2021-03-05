@@ -1,0 +1,39 @@
+  html, body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+  body {
+    display: relative;
+
+  }
+  canvas {
+    margin-top: 2%; 
+    border: 4px groove rgb(187, 124, 7);
+    background: rgb(168, 23, 132);
+    outline: 4px dashed red;
+    outline-offset: 3px;
+  }
+  #snake{
+    font-style: italic;
+  }
+  #score1{
+    text-decoration: underline;
+    font-size: 20px;    
+  }
+  #game1{
+    position: relative;
+    margin-left: 30%;
+  }
+  #game1 h1 {
+    color: brown;
+    text-decoration: none;
+    margin-left: 30px;
+    padding-top: 20px;
+  }
+  #game1 #score1{
+    color: indigo;
+    text-decoration: none;
+    margin-top: 20px;
+    padding-bottom: 20px;
+  }

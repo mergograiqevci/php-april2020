@@ -1,0 +1,34 @@
+CACHE MANIFEST
+# 08.01.2020 v.01
+index.html
+html/Amsterdam.html
+html/Barcelona.html
+html/Chooselanguage.html
+html/doha.html
+html/dubai.html
+html/gallery.html
+html/game.html
+html/Kontakti.html
+html/lavdata2.html
+html/lavdata3.html
+html/lavdatat.html
+html/Paris.html
+html/portfolio.html
+html/Sherbimet.html
+html/stamboll.html
+css/game.css
+css/portfolio.css
+css/style.css
+css/Chooselanguage.css
+css/footeri.css
+css/lavdatat.css
+css/body.css
+css/Kontakti.css
+css/dropdown.css
+
+
+NETWORK:
+*
+
+FALLBACK:
+

@@ -1,0 +1,6 @@
+
+.testimonial{margin-top:20px;}
+.testimonial:first-child{margin-top:0;}
+.testimonial div blockquote{position:relative; width:auto; margin:0; padding:0 0 0 60px; border:none;}
+
+.testimonial div blockquote p{margin:0 0 15px 0; padding:0;}

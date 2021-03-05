@@ -1,0 +1,237 @@
+html{overflow-y:scroll;} /* Forces a scrollbar when the viewport is larger than the websites content - CSS3 */
+
+body{margin:0; padding:0; font-size:13px; font-family:Georgia, "Times New Roman", Times, serif; color:#919191;}
+
+.clear:after{content:"."; display:block; height:0; clear:both; visibility:hidden; line-height:0;}
+.clear{display:block; clear:both;}
+html[xmlns] .clear{display:block;}
+* html .clear{height:1%;}
+
+
+/*----------------------------------------------HTML 5 Overrides-------------------------------------*/
+
+address, article, aside, figcaption, figure, footer, header, nav, section{display:block; margin:0; padding:0;}
+
+q{display:block; padding:0 10px 8px 10px; color:#979797; background-color:#ECECEC; font-style:italic; line-height:normal;}
+q:before{content:'� '; font-size:26px;}
+q:after{content:' �'; font-size:26px; line-height:0;}
+
+/* ----------------------------------------------Wrapper-------------------------------------*/
+
+
+
+/*----------------------------------------------Generalise-------------------------------------*/
+#container{display:block; width:970px; margin:0 auto; margin-bottom: -60px; position: relative; z-index: 999; background-color: #FFFFFF;}
+
+nav ul{margin:0; padding:0; list-style:none;}
+
+h1, h2, h3, h4, h5, h6{margin:0; padding:0; font-size:16px; font-weight:bold; font-style:normal; line-height:normal; /*text-transform:uppercase;*/}
+
+
+.one_quarter{display:block; float:left; margin:0 16px 0;}
+.one_quarter{width:210px;}
+.one_quarter a{color:rgb(254, 0, 42); background-color:#FFFFFF;}
+.one_quarter h2{margin-bottom: 15px;}
+.one_quarter p{margin:10px 0 6px 0;}
+
+.one_third{display:block; float:left; margin:0 26px 0 0;}
+.one_third{width:210px;}
+
+
+.lastbox{margin-right:0;}
+
+
+
+/*----------------------------------------------Content Area-------------------------------------*/
+
+#container{padding:30px 0;color: #919191;}
+#container section{display:block; width:100%; margin:0 16px 40px; padding:0;}
+#container .last{margin:0;}
+#container .more{text-align:left;}
+#container .more a{color:rgb(254, 0, 42); background-color:#FFFFFF;}
+
+
+/* ------Main Content-----*/
+
+#container #homepage{display:block; width:100%; line-height:1.6em;}
+#container .icons a{color:#FFFFFF; background-color:rgb(87, 85, 85); }
+#container .icons { float: left; padding-right: 2%; height: 70px; width: 400px;}
+#container .fab {padding: 10px; font-size: 17px; width: 15px; height: 15px; text-align: center; text-decoration: none; margin-top: 50px;}
+
+#container .fa-linkedin {
+  background: gray;
+  color: white;
+  border-radius: 100%;
+  margin-right: 10px;
+}
+#container .fa-linkedin:hover {
+  background: #cb2027;
+}
+#container .fa-twitter {
+  background: gray;
+  color: white;
+  border-radius: 100%;
+  margin-right: 10px;
+}
+#container .fa-twitter:hover {
+  background: #cb2027;
+}
+
+#container .fa-pinterest {
+  background: gray;
+  color: white;
+  border-radius: 100%;
+  margin-right: 10px;
+}
+#container .fa-pinterest:hover {
+  background: #cb2027;
+}
+
+#container .fa-google {
+  background: gray;
+  color: white;
+  border-radius: 100%;
+  margin-right: 10px;
+}
+#container .fa-google:hover {
+  background: #cb2027;
+}
+
+#container .fa-facebook-f {
+  background: gray;
+  color: white;
+  border-radius: 100%;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+#container .fa-facebook-f:hover {
+  background: #cb2027;
+}
+*{
+  margin:0px;
+  padding:0px;
+}
+
+#container #homepage #services{}
+#container #homepage #services article{width: 210px; padding-right: 4px; }
+#container #homepage #services article:hover {transform: scale(1.2,1.2);}
+#container #homepage #services article h2{font-size:14px; margin-bottom:15px; color: red;}
+#container #homepage #services article p{margin:0px; padding:0;}
+#container #homepage #services article img{float:left; width:48px; height:48px; margin:0 8px 8px 0; padding:1px; /*border:1px solid #DEDEDE;*/}
+#container #homepage #services article footer{margin:10px 0 0 0;}
+
+.fadingline {
+
+    display:block;
+     border:none;
+     color:white;
+     height:2px;
+     margin-bottom: 50px;
+     background:#d4d4d4;
+     background: -webkit-gradient(radial, 40% 40%, 0, 40% 40%, 550, from(#d8d8d8), to(#f7f6f6));
+ }
+
+#container #homepage #latest{}
+#container #homepage #latest article{}
+#container #homepage #latest article figure{}
+#container #homepage #latest article figure img{margin:0; padding:0px; /* border:1px solid #D6D6D6; */}
+#container #homepage #latest article figure figcaption{}
+#container #homepage #latest article figure h2{font-size:14px;}
+#container #homepage #latest article figure footer{padding: 0;}
+
+img{margin:0; padding:0; border:none;}
+.imgl, .imgr{border:1px solid #666666; padding:5px; color:#666666; background-color:#FFFFFF;}
+.imgl{margin:0 15px 0 0; clear:left;}
+.imgr{margin:0 0 15px 15px; clear:right;}
+
+#intro{padding:30px 275px 30px; }
+#intro ul{margin:0; padding:0; list-style:none;}
+#intro li{display:block; float:left; width:234px; margin:0 8px 0 0;}
+#intro li.last{margin-right:0;}
+#intro img{display:block; width:210px; height: 370px; margin:0 0 8px 0;  color:#666666; background-color:#FFFFFF; border:1px solid #E9E9E9;}
+
+
+#back-to-top-btn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 160px;
+  font-size: 26px;
+  width: 50px;
+  height: 50px;
+  background-color: #fff;
+  color: rgb(109, 9, 9);
+  cursor: pointer;
+  outline: none;
+  border: 3px solid #333;
+  border-radius: 50%;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+  transition-property: background-color, color;
+  z-index: 999;
+}
+#back-to-top-btn:hover, #back-to-top-btn:focus {
+  background-color: #333;
+  color: #fff;
+}
+
+
+/* Animations */
+.btnEntrance {
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-name: btnEntrance;
+}
+/* zoomIn */
+
+
+/* fadeInUp */
+@keyframes btnEntrance {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.btnExit {
+  animation-duration: 0.25s;
+  animation-fill-mode: both;
+  animation-name: btnExit;
+}
+/* zoomOut */
+
+
+/* fadeOutDown */
+@keyframes btnExit {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  }
+}
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  width: auto;
+  margin-top: -5px;
+  padding: 16px;
+  color: rgb(250, 8, 8);
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+ 
+  user-select: none;
+}
+
+.next {
+  right: 30px;
+}
+.prev {
+  right:55px
+}

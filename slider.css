@@ -1,0 +1,94 @@
+style
+        #tabela {
+            width: 100%;
+            
+            height: 380px;
+            display: inline-block;
+        }
+
+        #tabela td {
+            vertical-align: top;
+            
+            width: 25%;
+
+        }
+
+
+        /* animacioni fade */
+        .fade {
+            -webkit-animation-name: fade;
+            -webkit-animation-duration: 3s;
+            animation-name: fade;
+            animation-duration: 3s;
+            padding-top: 30px;
+        }
+
+        @-webkit-keyframes fade {
+            from {
+                opacity: .4
+            }
+
+            to {
+                opacity: 1
+            }
+        }
+
+        @keyframes fade {
+            from {
+                opacity: .4
+            }
+
+            to {
+                opacity: 1
+            }
+        }
+
+        /* Per display me te vogel*/
+        @media only screen and (max-width: 300px) {
+
+            .prev,
+            .next,
+            .text {
+                font-size: 11px
+            }
+        }
+
+
+
+        .prev2,
+        .next2 {
+            
+            cursor: pointer;
+            position: absolute;
+            width: auto;
+            padding: 6.75px 12px;
+            margin-top: 10px;
+           
+            color: white;
+            border: 1px solid #fff;
+            font-weight: bold;
+            font-size: 10px;
+            transition: 0.5s ease;
+            border-radius: 100%;
+            background-color: rgb(250, 8, 8);
+        }
+
+        /* pozicionimi i butonit 'next' */
+        .next2 {
+            right: 30px;
+        }
+        .prev2{
+            right: 75px;
+        }
+
+        /* ne hover buttoni bëhet black*/
+        .prev2:hover,
+        .next2:hover {
+            background-color: black;
+        }
+
+        .part1 {
+            display: inline-block;
+            padding-top: 45px;
+        }
+    

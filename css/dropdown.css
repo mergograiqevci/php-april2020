@@ -1,0 +1,40 @@
+nav ul li
+{
+  float: left;
+  position: relative;
+  list-style: none;
+}
+
+nav ul li a
+{
+  display: block;
+}
+
+nav ul li ul
+{
+display: none;
+position: absolute;
+border-radius: 0px 0px 10px 10px;
+}
+
+nav ul li:hover ul
+{
+display: block;
+top: 35px;
+z-index: 99999;
+opacity: .9;
+}
+
+nav ul li ul li
+{
+width: 180px;
+border-radius: 8px;
+margin-top: 0px;
+top: 20px;
+}
+
+nav ul li ul li a
+{
+padding: 20px 5px;
+margin-top: 0px;
+}

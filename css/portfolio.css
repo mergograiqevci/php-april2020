@@ -1,0 +1,135 @@
+#portfolio{display:block; width:100%; line-height:1.6em;}
+#portfolio ul{margin:0; padding:0; list-style:none;}
+#portfolio li{display:block; float:left; width:900px; margin:40px 30px 10px; padding:0;}
+#portfolio li.last{margin-right:0;}
+#portfolio article, #portfolio article figure{display:block; width:100%;}
+#portfolio article figure img{width:890px; height:400px; margin-bottom:8px;}
+#portfolio article figure a img{display:block; border:5px solid #B7B7B7;}
+#portfolio article figure a:hover img{border-color:#FF9900;opacity: .8;transition: 0.3s;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.5)}
+#portfolio article figure figcaption{padding:10px; color:#000000; background-color:#CCCCCC; text-align:center; border:1px solid #CCCCCC; border-radius:5px; -moz-border-radius:5px; -webkit-border-radius:5px;}
+
+
+
+#back-to-top-btn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 160px;
+    font-size: 26px;
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    color: rgb(109, 9, 9);
+    cursor: pointer;
+    outline: none;
+    border: 3px solid #333;
+    border-radius: 50%;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+    transition-property: background-color, color;
+    z-index: 999;
+  }
+  #back-to-top-btn:hover, #back-to-top-btn:focus {
+    background-color: #333;
+    color: #fff;  
+  }
+  
+  
+  /* Animations */
+  .btnEntrance {
+    animation-duration: 0.5s;
+    animation-fill-mode: both;
+    animation-name: btnEntrance;
+  }
+  /* zoomIn */
+  
+  
+  /* fadeInUp */
+  @keyframes btnEntrance {
+    from {
+      opacity: 0;
+      transform: translate3d(0, 100%, 0);
+    }
+    to {
+      opacity: 1;
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  
+  .btnExit {
+    animation-duration: 0.25s;
+    animation-fill-mode: both;  
+    animation-name: btnExit;
+  }
+  /* zoomOut */
+  
+  
+  /* fadeOutDown */
+  @keyframes btnExit {
+    from {
+      opacity: 1;
+    }
+    to {
+      opacity: 0;
+      transform: translate3d(0, 100%, 0);
+    }
+  }
+  
+  
+  #container .icons a{color:#FFFFFF; background-color:rgb(87, 85, 85); }
+  #container .icons { float: left; padding-right: 2%; height: 70px; width: 400px;}
+  #container .fab {padding: 10px; font-size: 17px; width: 15px; height: 15px; text-align: center; text-decoration: none; margin-top: 20px;}
+  
+  #container .fa-linkedin {
+    background: gray;
+    color: white;
+    border-radius: 100%;
+    margin-right: 10px;
+  }
+  #container .fa-linkedin:hover {
+    background: #cb2027;
+  }
+  #container .fa-twitter {
+    background: gray;
+    color: white;
+    border-radius: 100%;
+    margin-right: 10px;
+  }
+  #container .fa-twitter:hover {
+    background: #cb2027;
+  }
+  
+  #container .fa-pinterest {
+    background: gray;
+    color: white;
+    border-radius: 100%;
+    margin-right: 10px;
+  }
+  #container .fa-pinterest:hover {
+    background: #cb2027;
+  }
+  
+  #container .fa-google {
+    background: gray;
+    color: white;
+    border-radius: 100%;
+    margin-right: 10px;
+  }
+  #container .fa-google:hover {
+    background: #cb2027;
+  }
+  
+  #container .fa-facebook-f {
+    background: gray;
+    color: white;
+    border-radius: 100%;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  #container .fa-facebook-f:hover {
+    background: #cb2027;
+  }
+  *{
+    margin:0px;
+    padding:0px;
+  }
